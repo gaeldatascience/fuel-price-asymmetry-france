@@ -37,15 +37,22 @@ The dataset includes:
 
 ## ⚖️ Methodology
 
-1. **Data Cleaning and Processing**:
-   - Conversion of Brent prices into EUR/litre.
-   - Calculation of HT (tax-excluded) fuel prices.
-   - Computation of competition index (stations within 5km).
+### 1. Data Cleaning and Processing:
+- Conversion of Brent prices into EUR/litre.
+- Calculation of HT (tax-excluded) fuel prices.
+- Computation of competition index (stations within 5km).
 
-2. **Econometric Modeling**:
-   - Step 1: Estimate long-term relationship (cointegration) between Brent and fuel prices.
-   - Step 2: Apply ECM with asymmetry using Engle-Granger two-step procedure.
-   - Step 3: Use Wald test to detect significance of asymmetry.
+### 2. Exploratory Data Analysis (EDA):
+- Time series plots of fuel prices vs Brent price.
+- Correlation analysis between different fuel types and Brent.
+- Box plots of price spreads between pump and crude oil prices.
+- Distribution of price durations and margins by station type.
+- Regional maps of price averages and station densities.
+
+### 3. Econometric Modeling:
+- **Step 1**: Estimate long-term relationship (cointegration) between Brent and fuel prices.
+- **Step 2**: Apply ECM with asymmetry using Engle-Granger two-step procedure.
+- **Step 3**: Use Wald test to detect significance of asymmetry.
 
 ---
 
