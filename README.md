@@ -92,9 +92,3 @@ If you use this work in your research or publication, please cite it as:
 ## 🙌 Acknowledgements
 
 Thanks to **Ferhat Mihoubi** for supervising this research.
-
----
-
-## 🌐 License
-
-MIT License. See [LICENSE](./LICENSE) for details.
