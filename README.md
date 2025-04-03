@@ -48,7 +48,7 @@ The dataset includes:
 - Box plots of price spreads between pump and crude oil prices.
 - Distribution of price durations and margins by station type.
 - Regional maps of price averages and station densities.
-- interactive map showcasing station clusters. [see here:](https://gaeldatascience.github.io/ma_carte.html/ma_carte.html)
+- Interactive map showcasing station clusters. [see here:](https://gaeldatascience.github.io/ma_carte.html/ma_carte.html)
 
 ### 3. Econometric Modeling:
 - **Step 1**: Estimate long-term relationship (cointegration) between Brent and fuel prices.
